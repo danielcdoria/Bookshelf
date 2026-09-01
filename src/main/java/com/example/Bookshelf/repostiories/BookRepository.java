@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface BookRepository extends JpaRepository<Book, Long> {
     List<Book> findByUser(User user);
-    List<Book> findByUserAndStatus(Book.Status status);
-    List<Book> findByUserAndGenre(Book.Genre genre);
+    List<Book> findByUserAndStatus(User user, Book.Status status);
+    List<Book> findByUserAndGenre(User user, Book.Genre genre);
 }
