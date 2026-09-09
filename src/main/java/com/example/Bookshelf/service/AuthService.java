@@ -5,7 +5,6 @@ import com.example.Bookshelf.dtos.authDtos.LoginRequestDto;
 import com.example.Bookshelf.dtos.authDtos.RegisterRequestDto;
 import com.example.Bookshelf.models.User;
 import com.example.Bookshelf.repostiories.UserRepository;
-import com.example.Bookshelf.security.JwtConfig;
 import com.example.Bookshelf.security.JwtUtil;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
